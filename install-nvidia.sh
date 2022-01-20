@@ -11,3 +11,5 @@ BIN_PATH="/usr/local/bin"
 cd ${INSTALL_PATH}/package
 
 sudo bash install-nvdriver.sh
+sudo bash install-cudacudnn.sh
+sudo bash install-nvidiadocker.sh
