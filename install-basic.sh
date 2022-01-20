@@ -2,8 +2,8 @@
 
 # Download the repo and run this file for all installation
 
-REPO_LINK="https://github.com/Wang-jun-jjie/ais-env"
-INSTALL_PATH="/opt/ais-env"
+REPO_LINK="https://github.com/Cyquory/server-env"
+INSTALL_PATH="/opt/server-env"
 MOTD_PATH="/etc/update-motd.d"
 BIN_PATH="/usr/local/bin"
 
