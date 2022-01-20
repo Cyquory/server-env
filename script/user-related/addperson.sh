@@ -5,7 +5,7 @@ NAME=$2
 GROUP="aislab"
 PASSWD=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
 
-if [ "${PERSONNEL}" == "" ] || ["${NAME}" == ""]
+if [ "${PERSONNEL}" == "" ] || [ "${NAME}" == "" ]
 then
   echo "Usage: $0 <account id> <full name>"
   exit 1
