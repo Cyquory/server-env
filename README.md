@@ -7,7 +7,8 @@ reboot, then install the basic first
 ```
 bash <(curl -L https://raw.githubusercontent.com/Cyquory/server-env/main/install-basic.sh)
 ```
-Install nvidia driver
+Decide whether to expose netdata to the web
+Go to `/opt/server-env`, install nvidia driver
 ```
 bash install-nvidia.sh
 ```

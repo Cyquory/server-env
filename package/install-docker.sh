@@ -9,9 +9,9 @@ sudo apt-get remove docker docker-engine docker.io containerd runc
 # update apt repo
 sudo apt update
 # install docker dependency
-sudo apt install ca-certificates \
-                 gnupg \
-                 lsb-release
+sudo apt install -y ca-certificates \
+                    gnupg \
+                    lsb-release
 
 # add docker's officical GPG keys
  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -22,7 +22,7 @@ sudo apt install ca-certificates \
 
 # Install Docker Engine
 sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get install -y  docker-ce docker-ce-cli containerd.io
 
 # verify docker
 sudo docker run hello-world

@@ -12,3 +12,5 @@ sudo systemctl status netdata
 # Configure firewall
 sudo ufw allow 19999/tcp
 sudo ufw reload
+
+echo "please go to /etc/netdata/netdata.conf to expose netdata port"
