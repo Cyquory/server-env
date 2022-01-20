@@ -31,14 +31,14 @@ install () {
 
   # install cuDNN library
   printf "Installing cuDNN ${CUDNN_VERSION}... "
-  sudo tar --no-same-owner -xJf cudnn.tgz -C /usr/local
+  sudo tar --no-same-owner -xJf cudnn.tar.gz -C /usr/local
   echo "Done."
 
   # remove default symbloic link
   sudo rm /usr/local/cuda
 
   # clean up
-  rm cuda.run cudnn.tgz
+  rm cuda.run cudnn.tar.gz
 }
 
 # install each version of CUDA and cuDNN
