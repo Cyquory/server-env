@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 PERSONNEL=$1
-NAME = $2
+NAME=$2
 GROUP="aislab"
 PASSWD=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
 
