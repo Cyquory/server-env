@@ -20,6 +20,7 @@ fi
 sudo adduser ${PERSONNEL} \
   --ingroup ${GROUP} \
   --gecos "${NAME},RoomNumber,WorkPhone,HomePhone" \
+  --disabled-password
 
 echo "${PERSONNEL}:${PASSWD}" | sudo chpasswd
 echo "Username: ${PERSONNEL}"
