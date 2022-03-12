@@ -15,7 +15,7 @@ sudo apt install -y freeglut3-dev \
                     libxmu-dev \
                     libxi-dev \
                     libglu1-mesa \
-                    libglu1-mesa-dev
+                    libglu1-mesa-dev \
                     build-essential \
                     dkms 
 
