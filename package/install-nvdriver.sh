@@ -4,7 +4,7 @@
 cd /tmp
 
 # useful variables
-DRIVER_VERSION="495.46" # CUDA Version: 11.4
+DRIVER_VERSION="510.54" # CUDA Version: 11.6
 DRIVER_INSTALLER="NVIDIA-Linux-x86_64-${DRIVER_VERSION}.run"
 DRIVER_LINK="http://us.download.nvidia.com/XFree86/Linux-x86_64/${DRIVER_VERSION}/${DRIVER_INSTALLER}"
 
